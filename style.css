@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 600vh;   /* In future remove the height! */ 
+    background: #000;
+    color: #fff;
+}
+
+/* Utility Class */
+
+hr{
+    width: 100%;
+    height: 8px;
+    border: none;
+    background-color: #323232;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./assets/netflix-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 14%;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.links select {
+    width: 130px;
+    height: 32px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: transparent;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+}
+.links select option{
+    color: #000;
+    
+}
+
+.links button{
+    width: 72px;
+    height: 32px;
+    color: white;
+    background-color: red;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.links button:hover{
+    cursor: pointer;
+    background-color: rgb(188, 2, 2);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main .p1{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.main .p2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 20px;
+    text-decoration-thickness: 5px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;  
+}
+
+.form input{
+    width: 400px;
+    height: 55px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    background-color: #0000004e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.form button{
+    width: 200px;
+    height: 55px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: rgb(188, 2, 2);
+}
+
+.feature{
+    width: 100%;
+    height: 80vh;  
+}
+.feature img{
+    width: 90%;
+}
+
+.feature h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature p{
+    font-size: 1.3rem;
+}
+
+.feature .item1{
+    margin-left: 200px;
+}
+.feature .item2{
+    margin-right: 100px;
+}
+
+.feature .item1 .mobile{
+    width: 550px;
+    padding-top: 100px;  
+}
+
+.download{
+    width: 55%;
+    height: 100px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 0px 0px 20px black;
+    justify-content: space-around;
+    position: relative;
+    bottom: 135px;
+    left: 120px;
+}
+
+.download .boxshot{
+    width: 40%;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.download p {
+    font-size: 0.9rem;
+    color: #0071eb;
+}
+
+.flex h4{
+    position: relative;
+    right: 36px;
+}
+
+.flex p{
+    padding-right: 100px;
+}
+
+.download-gif img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    right: 50px;
+}
+
+.feature .boxshot2{
+    width: 90%;    
+}
+.feature3 .item1{
+    margin-left: 120px;
+}
+
+.feature3 .item2{
+    margin-right: 120px;
+}
+.feature3 p{
+    font-size: 1.4rem;
+}
+
+.feature4 .item1{
+    margin-left: 120px;
+}
+
+.feature4 .item2{
+    margin-right: 120px;
+}
+
+.feature4 p{
+    font-size: 1.2rem;
+}
+
+/* <--------- Faq-Section ----------> */
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.faq h2{
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.accordion{
+    width: 100vw;
+    height: 100vh;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq .form{
+    position: relative;
+    bottom: 20px;
+}
+
+.faq small{
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+footer {
+    width: 80vw;
+    height: 60vh;
+    color: #bfbfbf;
+}
+
+footer .p1{
+    padding-top: 60px;
+    padding-left: 130px;
+}
+
+footer p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+footer .col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .col a{
+    color: #bfbfbf;
+    padding: 5px;
+}
+
+footer .links{
+    padding-left: 165px;
+    padding-top: 50px;
+}
+
+footer .p2{
+    padding-top: 5px;
+    padding-left: 130px;
+}
+
+
+
+
+
+
+
+

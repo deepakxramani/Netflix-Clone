@@ -1,0 +1,111 @@
+@media screen and (max-width: 320px) {
+    .header{
+        height: 90vh;
+    }
+    .logo {
+        width: 40%;
+        position: relative;
+        left: -20px;
+    }
+
+    .links select {
+        width: 70px;
+        height: 30px;
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 20px;
+        left: -10px;
+    }
+
+    .links button{
+        width: 60px;
+        height: 30px;
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 20px;
+        left: 0px;
+    }
+
+    nav{
+        margin: 10px auto;
+    }
+
+    .main{
+        position: relative;
+        top: 5%;
+    }
+
+    .main h1{
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    
+    .main .p1{
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 5px;
+    }
+    
+    .main .p2{
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding-top: 20px;
+    }
+
+    .form{
+        flex-direction: column;
+        margin-top: 20px;  
+    }
+
+    .form input{
+        width: 250px;
+        height: 50px;
+    }
+
+    .form button{
+        width: 150px;
+        height: 55px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .feature{
+        width: 50%;
+        height: 80vh;  
+    }
+
+    .feature1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .feature1 img{
+        width: 200%;
+    }
+    
+    .feature h1{
+        font-size: 1.5rem;
+        font-weight: 700;
+        
+    }
+    
+    .feature p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .feature .item1{
+        margin-left: 100px;
+    }
+    .feature .item2{
+        margin-right: 100px;
+    }
+    
+    .feature .item1 .mobile{
+        width: 550px;
+        padding-top: 100px;  
+    }
+}
